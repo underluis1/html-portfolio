@@ -1,0 +1,54 @@
+
+body {
+
+    padding: 24px; 
+    border: 2px solid aqua; /* Specifica lo stile del bordo */
+    border-radius: 12px; /* Arrotondamento degli angoli */
+    background-color: #f0f0f0; /* Colore di sfondo */
+}
+
+h1{
+    color: aqua;
+}
+
+.row{
+    display: flex; /* Definisce un layout orizzontale */
+    gap: 16px; /* Spaziatura tra gli elementi */
+    margin-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid aqua;
+    padding-top: 0px;
+    align-items: center;
+}
+
+.column{
+    display: flex; /* Definisce un layout orizzontale */
+    gap: 16px; /* Spaziatura tra gli elementi */
+    margin-bottom: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px dotted aqua;
+    
+}
+
+.card{
+    border: 3px dotted red;
+    background-color: beige;
+    padding: 6px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    min-width: 30%;
+}
+
+.sectionnn{
+ padding: 24;
+ background-color: aqua;
+    width: 300px;
+    height: 200px;
+
+}
+
+.vaffanculo {
+    font-size: 25px;
+}
